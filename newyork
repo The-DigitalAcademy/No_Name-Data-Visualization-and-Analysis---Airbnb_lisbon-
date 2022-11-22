@@ -17,3 +17,7 @@ CREATE TABLE  airbnb_newyork (
    reviews_per_month float,
    calculated_host_listings_count int,
    availability_365 int );
+   
+COPY airbnb_newyork
+FROM '/Users/ds_learner51/Downloads/AirBnB_Newyork.csv' 
+CSV HEADER;
