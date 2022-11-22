@@ -1,0 +1,19 @@
+%%sql
+DROP TABLE IF EXISTS airbnb_newyork CASCADE;
+CREATE TABLE  airbnb_newyork (
+   id int primary key not null,
+   name VARCHAR(55),
+   host_id INT,
+   host_name VARCHAR(55),
+   neighbourhood_group VARCHAR(55),
+   neighborhood VARCHAR(55),
+   latitude FLOAT,
+   longitude float,
+   room_type VARCHAR(55),
+   price float,
+   minimum_nights float,
+   number_of_reviews int,
+   last_review DATE,
+   reviews_per_month float,
+   calculated_host_listings_count int,
+   availability_365 int );
