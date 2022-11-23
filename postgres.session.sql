@@ -12,7 +12,7 @@ CREATE TABLE  airbnb_lisbon (
    reviews int ,
    overall_satisfaction float,
    accommodates INT,
-   bedrooms float,
+   bedrooms int,
    bathrooms float,
    price float,
    minstay float,
@@ -20,10 +20,10 @@ CREATE TABLE  airbnb_lisbon (
    last_modified TIMESTAMP,
    latitude FLOAT,
    longitude float,
-   location VARCHAR(566)
+   location VARCHAR(1000)
 );
 
 
 COPY airbnb_lisbon
-FROM '/Users/da_learner_m1_19/Downloads/airbnb_lisbon.csv' 
+FROM '/Users/dslearner23/Downloads/airbnb_lisbon2.csv' 
 CSV HEADER;
