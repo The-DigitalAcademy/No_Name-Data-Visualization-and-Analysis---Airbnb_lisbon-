@@ -1,12 +1,12 @@
-%%sql
-DROP TABLE IF EXISTS airbnb_newyork CASCADE;
+
+/*DROP TABLE IF EXISTS airbnb_newyork CASCADE;
 CREATE TABLE  airbnb_newyork (
    id int primary key not null,
-   name VARCHAR(55),
+   name VARCHAR(255),
    host_id INT,
-   host_name VARCHAR(55),
-   neighbourhood_group VARCHAR(55),
-   neighborhood VARCHAR(55),
+   host_name VARCHAR(255),
+   neighbourhood_group VARCHAR(255),
+   neighborhood VARCHAR(255),
    latitude FLOAT,
    longitude float,
    room_type VARCHAR(55),
@@ -17,7 +17,7 @@ CREATE TABLE  airbnb_newyork (
    reviews_per_month float,
    calculated_host_listings_count int,
    availability_365 int );
-   
+   */
 COPY airbnb_newyork
 FROM '/Users/ds_learner51/Downloads/AirBnB_Newyork.csv' 
 CSV HEADER;
