@@ -27,3 +27,5 @@ CREATE TABLE  airbnb_lisbon (
 COPY airbnb_lisbon
 FROM '/Users/dslearner23/Downloads/airbnb_lisbon2.csv' 
 CSV HEADER;
+
+jfyjfhj
