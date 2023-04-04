@@ -11,10 +11,13 @@ No_Name-Data-Visualization-and-Analysis---Airbnb_lisbon-
 
 ## General Info
 
-This is a visualization and analysis for an airbnb in Lisbon
+This is a visualization and analysis for an airbnb in Lisbon and New York
 
 ## Technologies used
 
+Python
+
+SAS
 
 ## Project staus
 
